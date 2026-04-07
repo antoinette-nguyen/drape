@@ -85,6 +85,44 @@ Drape solves decision paralysis by turning a photo library of your clothes into 
 
 ---
 
+## Design & Research
+
+### The Problem
+![Before & After](docs/assets/06-before-after.svg)
+
+### Emotional Journey Map
+![Journey Map](docs/assets/10-journey-map.svg)
+
+### Capsule Wardrobe Matrix
+![Capsule Wardrobe Matrix](docs/assets/01-capsule-wardrobe-matrix.svg)
+
+### Color Theory
+![Color Theory](docs/assets/05-color-theory.svg)
+
+### Outfit Combination Graph
+![Outfit Graph](docs/assets/08-outfit-graph.svg)
+
+### Design Philosophy — Dieter Rams
+![Dieter Rams Principles](docs/assets/07-dieter-rams.svg)
+
+---
+
+## Technical Design
+
+### System Architecture
+![System Architecture](docs/assets/03-system-architecture.svg)
+
+### The AI Pipeline
+![AI Pipeline](docs/assets/04-ai-pipeline.svg)
+
+### User Flow
+![User Flow](docs/assets/02-user-flow.svg)
+
+### Information Architecture
+![Information Architecture](docs/assets/09-information-architecture.svg)
+
+---
+
 ## Features
 
 - **Wardrobe upload** — photograph a clothing item, Claude Vision identifies the name, category, color, and style automatically

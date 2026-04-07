@@ -1,0 +1,79 @@
+<svg width="900" height="560" viewBox="0 0 900 560" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="900" height="560" fill="#FAFAF8"/>
+
+  <!-- Title -->
+  <text x="60" y="52" font-size="22" font-weight="600" fill="#1C1917">Design Philosophy — Dieter Rams</text>
+  <text x="60" y="74" font-size="13" fill="#78716C">10 principles of good design, applied to Drape</text>
+  <line x1="60" y1="90" x2="840" y2="90" stroke="#E7E5E4" stroke-width="1"/>
+
+  <!-- Quote -->
+  <text x="450" y="118" font-size="14" fill="#A8956E" text-anchor="middle" font-style="italic">"Good design is as little design as possible."</text>
+  <text x="450" y="136" font-size="12" fill="#78716C" text-anchor="middle">— Dieter Rams</text>
+
+  <!-- Principle rows -->
+  <!-- Row 1 -->
+  <rect x="60" y="155" width="380" height="70" rx="8" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1.5"/>
+  <rect x="60" y="155" width="6" height="70" rx="3" fill="#1C1917"/>
+  <text x="82" y="178" font-size="11" font-weight="700" fill="#A8956E">01 — Innovative</text>
+  <text x="82" y="196" font-size="12" font-weight="500" fill="#1C1917">Good design is innovative</text>
+  <text x="82" y="213" font-size="11" fill="#78716C">Drape: AI-generated outfits are genuinely novel combinations</text>
+
+  <rect x="460" y="155" width="380" height="70" rx="8" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1.5"/>
+  <rect x="460" y="155" width="6" height="70" rx="3" fill="#A8956E"/>
+  <text x="482" y="178" font-size="11" font-weight="700" fill="#A8956E">02 — Useful</text>
+  <text x="482" y="196" font-size="12" font-weight="500" fill="#1C1917">Good design makes a product useful</text>
+  <text x="482" y="213" font-size="11" fill="#78716C">Drape: solves a real daily problem — decision paralysis</text>
+
+  <!-- Row 2 -->
+  <rect x="60" y="237" width="380" height="70" rx="8" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1.5"/>
+  <rect x="60" y="237" width="6" height="70" rx="3" fill="#1C1917"/>
+  <text x="82" y="260" font-size="11" font-weight="700" fill="#A8956E">03 — Aesthetic</text>
+  <text x="82" y="278" font-size="12" font-weight="500" fill="#1C1917">Good design is aesthetic</text>
+  <text x="82" y="295" font-size="11" fill="#78716C">Drape: warm neutral palette, generous whitespace, no clutter</text>
+
+  <rect x="460" y="237" width="380" height="70" rx="8" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1.5"/>
+  <rect x="460" y="237" width="6" height="70" rx="3" fill="#A8956E"/>
+  <text x="482" y="260" font-size="11" font-weight="700" fill="#A8956E">04 — Understandable</text>
+  <text x="482" y="278" font-size="12" font-weight="500" fill="#1C1917">Good design makes a product understandable</text>
+  <text x="482" y="295" font-size="11" fill="#78716C">Drape: plain-English outfit explanations, no jargon</text>
+
+  <!-- Row 3 -->
+  <rect x="60" y="319" width="380" height="70" rx="8" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1.5"/>
+  <rect x="60" y="319" width="6" height="70" rx="3" fill="#1C1917"/>
+  <text x="82" y="342" font-size="11" font-weight="700" fill="#A8956E">05 — Unobtrusive</text>
+  <text x="82" y="360" font-size="12" font-weight="500" fill="#1C1917">Good design is unobtrusive</text>
+  <text x="82" y="377" font-size="11" fill="#78716C">Drape: AI works invisibly — user just sees outfits, not models</text>
+
+  <rect x="460" y="319" width="380" height="70" rx="8" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1.5"/>
+  <rect x="460" y="319" width="6" height="70" rx="3" fill="#A8956E"/>
+  <text x="482" y="342" font-size="11" font-weight="700" fill="#A8956E">06 — Honest</text>
+  <text x="482" y="360" font-size="12" font-weight="500" fill="#1C1917">Good design is honest</text>
+  <text x="482" y="377" font-size="11" fill="#78716C">Drape: shows exactly what items combine, no smoke and mirrors</text>
+
+  <!-- Row 4 -->
+  <rect x="60" y="401" width="380" height="70" rx="8" fill="#1C1917"/>
+  <rect x="60" y="401" width="6" height="70" rx="3" fill="#A8956E"/>
+  <text x="82" y="424" font-size="11" font-weight="700" fill="#A8956E">07 — Long-lasting</text>
+  <text x="82" y="442" font-size="12" font-weight="500" fill="#FFFFFF">Good design is long-lasting</text>
+  <text x="82" y="459" font-size="11" fill="#78716C">Drape: capsule philosophy promotes buying less, wearing more</text>
+
+  <rect x="460" y="401" width="380" height="70" rx="8" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1.5"/>
+  <rect x="460" y="401" width="6" height="70" rx="3" fill="#1C1917"/>
+  <text x="482" y="424" font-size="11" font-weight="700" fill="#A8956E">08 — Thorough</text>
+  <text x="482" y="442" font-size="12" font-weight="500" fill="#1C1917">Good design is thorough down to the last detail</text>
+  <text x="482" y="459" font-size="11" fill="#78716C">Drape: RLS security, loading states, graceful empty states</text>
+
+  <!-- Row 5 -->
+  <rect x="60" y="483" width="380" height="52" rx="8" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1.5"/>
+  <rect x="60" y="483" width="6" height="52" rx="3" fill="#1C1917"/>
+  <text x="82" y="506" font-size="11" font-weight="700" fill="#A8956E">09 — Environmentally friendly</text>
+  <text x="82" y="524" font-size="11" fill="#78716C">Drape: helps users shop gaps, not impulsively</text>
+
+  <rect x="460" y="483" width="380" height="52" rx="8" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1.5"/>
+  <rect x="460" y="483" width="6" height="52" rx="3" fill="#A8956E"/>
+  <text x="482" y="506" font-size="11" font-weight="700" fill="#A8956E">10 — As little design as possible</text>
+  <text x="482" y="524" font-size="11" fill="#78716C">Drape: no onboarding wizard, no settings page, just upload + go</text>
+
+  <!-- Footer -->
+  <text x="60" y="550" font-size="11" fill="#C4B8B0">Drape — AI Outfit Planner</text>
+</svg>

@@ -1,0 +1,80 @@
+<svg width="900" height="420" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="900" height="420" fill="#FAFAF8"/>
+
+  <!-- Title -->
+  <text x="60" y="52" font-size="22" font-weight="600" fill="#1C1917">Emotional Journey Map</text>
+  <text x="60" y="74" font-size="13" fill="#78716C">From "I have nothing to wear" to "I never thought to wear that"</text>
+  <line x1="60" y1="90" x2="840" y2="90" stroke="#E7E5E4" stroke-width="1"/>
+
+  <!-- Y-axis labels -->
+  <text x="52" y="128" font-size="10" fill="#A8956E" text-anchor="end">Delight</text>
+  <text x="52" y="178" font-size="10" fill="#78716C" text-anchor="end">Positive</text>
+  <text x="52" y="228" font-size="10" fill="#78716C" text-anchor="end">Neutral</text>
+  <text x="52" y="278" font-size="10" fill="#78716C" text-anchor="end">Friction</text>
+  <text x="52" y="328" font-size="10" fill="#78716C" text-anchor="end">Frustration</text>
+
+  <!-- Y-axis grid lines -->
+  <line x1="60" y1="125" x2="840" y2="125" stroke="#F5F0EB" stroke-width="1"/>
+  <line x1="60" y1="175" x2="840" y2="175" stroke="#F5F0EB" stroke-width="1"/>
+  <line x1="60" y1="225" x2="840" y2="225" stroke="#F5F0EB" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="60" y1="275" x2="840" y2="275" stroke="#F5F0EB" stroke-width="1"/>
+  <line x1="60" y1="325" x2="840" y2="325" stroke="#F5F0EB" stroke-width="1"/>
+
+  <!-- Journey curve path -->
+  <!-- Points: start frustrated → slight dip → improve → dip during upload effort → rise → big wow -->
+  <!-- x positions: 120, 240, 360, 480, 600, 720, 840 -->
+  <!-- y positions (emotion): 310, 325, 260, 285, 200, 155, 120 -->
+  <path d="M 120,310 C 160,318 200,330 240,325 C 280,320 320,280 360,260 C 390,248 420,270 480,285 C 540,300 560,240 600,200 C 640,165 680,148 720,140 C 760,132 800,122 840,118"
+        fill="none" stroke="#E7E5E4" stroke-width="3"/>
+
+  <!-- Fill under curve -->
+  <path d="M 120,310 C 160,318 200,330 240,325 C 280,320 320,280 360,260 C 390,248 420,270 480,285 C 540,300 560,240 600,200 C 640,165 680,148 720,140 C 760,132 800,122 840,118 L 840,370 L 120,370 Z"
+        fill="#A8956E" fill-opacity="0.06"/>
+
+  <!-- Highlighted positive portion -->
+  <path d="M 480,285 C 540,300 560,240 600,200 C 640,165 680,148 720,140 C 760,132 800,122 840,118"
+        fill="none" stroke="#A8956E" stroke-width="3"/>
+
+  <!-- Moment dots -->
+  <circle cx="120" cy="310" r="6" fill="#78716C"/>
+  <circle cx="240" cy="325" r="6" fill="#78716C"/>
+  <circle cx="360" cy="260" r="6" fill="#78716C"/>
+  <circle cx="480" cy="285" r="6" fill="#78716C"/>
+  <circle cx="600" cy="200" r="8" fill="#A8956E"/>
+  <circle cx="720" cy="140" r="8" fill="#A8956E"/>
+  <circle cx="840" cy="118" r="10" fill="#1C1917"/>
+
+  <!-- Star on final point -->
+  <text x="840" y="113" font-size="12" text-anchor="middle">✦</text>
+
+  <!-- Moment labels -->
+  <text x="120" y="352" font-size="11" fill="#78716C" text-anchor="middle">Full closet,</text>
+  <text x="120" y="365" font-size="11" fill="#78716C" text-anchor="middle">feels empty</text>
+
+  <text x="240" y="352" font-size="11" fill="#78716C" text-anchor="middle">Discovers</text>
+  <text x="240" y="365" font-size="11" fill="#78716C" text-anchor="middle">Drape</text>
+
+  <text x="360" y="352" font-size="11" fill="#78716C" text-anchor="middle">Signs up,</text>
+  <text x="360" y="365" font-size="11" fill="#78716C" text-anchor="middle">hopeful</text>
+
+  <text x="480" y="352" font-size="11" fill="#78716C" text-anchor="middle">Uploads</text>
+  <text x="480" y="365" font-size="11" fill="#78716C" text-anchor="middle">first items</text>
+
+  <text x="600" y="352" font-size="11" fill="#A8956E" font-weight="500" text-anchor="middle">Wardrobe</text>
+  <text x="600" y="365" font-size="11" fill="#A8956E" font-weight="500" text-anchor="middle">fills up</text>
+
+  <text x="720" y="352" font-size="11" fill="#A8956E" font-weight="500" text-anchor="middle">Generates</text>
+  <text x="720" y="365" font-size="11" fill="#A8956E" font-weight="500" text-anchor="middle">first outfit</text>
+
+  <text x="840" y="352" font-size="11" fill="#1C1917" font-weight="600" text-anchor="middle">"I never</text>
+  <text x="840" y="365" font-size="11" fill="#1C1917" font-weight="600" text-anchor="middle">thought to..."</text>
+
+  <!-- Annotation bubble -->
+  <rect x="615" y="148" width="180" height="40" rx="8" fill="#1C1917"/>
+  <polygon points="630,188 620,200 640,188" fill="#1C1917"/>
+  <text x="705" y="168" font-size="11" font-weight="500" fill="#FAFAF8" text-anchor="middle">This is the wow moment</text>
+  <text x="705" y="182" font-size="10" fill="#A8956E" text-anchor="middle">Drape is designed for this</text>
+
+  <!-- Footer -->
+  <text x="60" y="408" font-size="11" fill="#C4B8B0">Drape — AI Outfit Planner</text>
+</svg>

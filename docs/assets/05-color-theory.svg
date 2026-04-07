@@ -1,0 +1,91 @@
+<svg width="900" height="480" viewBox="0 0 900 480" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="900" height="480" fill="#FAFAF8"/>
+
+  <!-- Title -->
+  <text x="60" y="52" font-size="22" font-weight="600" fill="#1C1917">Color Theory in Fashion</text>
+  <text x="60" y="74" font-size="13" fill="#78716C">The three harmony principles Drape uses when pairing your clothes</text>
+  <line x1="60" y1="90" x2="840" y2="90" stroke="#E7E5E4" stroke-width="1"/>
+
+  <!-- Column 1: Monochromatic -->
+  <text x="130" y="125" font-size="13" font-weight="600" fill="#1C1917" text-anchor="middle">Monochromatic</text>
+  <text x="130" y="142" font-size="11" fill="#78716C" text-anchor="middle">Tones of one color</text>
+
+  <!-- Mono swatches -->
+  <rect x="60" y="158" width="50" height="50" rx="6" fill="#F5F0EB"/>
+  <rect x="118" y="158" width="50" height="50" rx="6" fill="#C4A882"/>
+  <rect x="176" y="158" width="50" height="50" rx="6" fill="#8B7355"/>
+
+  <text x="85" y="225" font-size="10" fill="#78716C" text-anchor="middle">Cream</text>
+  <text x="143" y="225" font-size="10" fill="#78716C" text-anchor="middle">Beige</text>
+  <text x="201" y="225" font-size="10" fill="#78716C" text-anchor="middle">Tan</text>
+
+  <!-- Mono example -->
+  <rect x="60" y="242" width="170" height="80" rx="8" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1.5"/>
+  <text x="145" y="265" font-size="11" font-weight="500" fill="#1C1917" text-anchor="middle">Example Look</text>
+  <rect x="76" y="276" width="12" height="12" rx="2" fill="#F5F0EB" stroke="#E7E5E4" stroke-width="1"/>
+  <rect x="96" y="276" width="12" height="12" rx="2" fill="#C4A882"/>
+  <rect x="116" y="276" width="12" height="12" rx="2" fill="#8B7355"/>
+  <text x="76" y="310" font-size="10" fill="#78716C">Cream tee · Beige coat · Tan bag</text>
+
+  <rect x="60" y="338" width="170" height="44" rx="8" fill="#F5F0EB"/>
+  <text x="145" y="355" font-size="11" fill="#8B7355" text-anchor="middle" font-style="italic">"Effortless and</text>
+  <text x="145" y="372" font-size="11" fill="#8B7355" text-anchor="middle" font-style="italic">sophisticated"</text>
+
+  <!-- Column 2: Complementary -->
+  <text x="450" y="125" font-size="13" font-weight="600" fill="#1C1917" text-anchor="middle">Complementary</text>
+  <text x="450" y="142" font-size="11" fill="#78716C" text-anchor="middle">Opposite on the color wheel</text>
+
+  <!-- Comp swatches -->
+  <rect x="380" y="158" width="50" height="50" rx="6" fill="#2D3748"/>
+  <rect x="438" y="158" width="50" height="50" rx="6" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1"/>
+  <rect x="496" y="158" width="50" height="50" rx="6" fill="#C4A882"/>
+
+  <text x="405" y="225" font-size="10" fill="#78716C" text-anchor="middle">Navy</text>
+  <text x="463" y="225" font-size="10" fill="#78716C" text-anchor="middle">White</text>
+  <text x="521" y="225" font-size="10" fill="#78716C" text-anchor="middle">Camel</text>
+
+  <!-- Comp example -->
+  <rect x="380" y="242" width="170" height="80" rx="8" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1.5"/>
+  <text x="465" y="265" font-size="11" font-weight="500" fill="#1C1917" text-anchor="middle">Example Look</text>
+  <rect x="396" y="276" width="12" height="12" rx="2" fill="#2D3748"/>
+  <rect x="416" y="276" width="12" height="12" rx="2" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1"/>
+  <rect x="436" y="276" width="12" height="12" rx="2" fill="#C4A882"/>
+  <text x="396" y="310" font-size="10" fill="#78716C">Navy blazer · White tee · Camel bag</text>
+
+  <rect x="380" y="338" width="170" height="44" rx="8" fill="#F0F4F8"/>
+  <text x="465" y="355" font-size="11" fill="#2D3748" text-anchor="middle" font-style="italic">"Classic contrast,</text>
+  <text x="465" y="372" font-size="11" fill="#2D3748" text-anchor="middle" font-style="italic">always sharp"</text>
+
+  <!-- Column 3: Analogous -->
+  <text x="770" y="125" font-size="13" font-weight="600" fill="#1C1917" text-anchor="middle">Analogous</text>
+  <text x="770" y="142" font-size="11" fill="#78716C" text-anchor="middle">Neighbors on the color wheel</text>
+
+  <!-- Analogous swatches -->
+  <rect x="700" y="158" width="50" height="50" rx="6" fill="#8B9DC3"/>
+  <rect x="758" y="158" width="50" height="50" rx="6" fill="#7B8FA6"/>
+  <rect x="816" y="158" width="50" height="50" rx="6" fill="#4A6278"/>
+
+  <text x="725" y="225" font-size="10" fill="#78716C" text-anchor="middle">Sky</text>
+  <text x="783" y="225" font-size="10" fill="#78716C" text-anchor="middle">Steel</text>
+  <text x="841" y="225" font-size="10" fill="#78716C" text-anchor="middle">Slate</text>
+
+  <!-- Analogous example -->
+  <rect x="700" y="242" width="170" height="80" rx="8" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1.5"/>
+  <text x="785" y="265" font-size="11" font-weight="500" fill="#1C1917" text-anchor="middle">Example Look</text>
+  <rect x="716" y="276" width="12" height="12" rx="2" fill="#8B9DC3"/>
+  <rect x="736" y="276" width="12" height="12" rx="2" fill="#7B8FA6"/>
+  <rect x="756" y="276" width="12" height="12" rx="2" fill="#4A6278"/>
+  <text x="716" y="310" font-size="10" fill="#78716C">Sky shirt · Steel coat · Slate jeans</text>
+
+  <rect x="700" y="338" width="170" height="44" rx="8" fill="#EEF2F7"/>
+  <text x="785" y="355" font-size="11" fill="#4A6278" text-anchor="middle" font-style="italic">"Cohesive and</text>
+  <text x="785" y="372" font-size="11" fill="#4A6278" text-anchor="middle" font-style="italic">intentional"</text>
+
+  <!-- Bottom note -->
+  <rect x="60" y="400" width="780" height="52" rx="8" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1.5"/>
+  <text x="450" y="422" font-size="12" fill="#1C1917" text-anchor="middle" font-weight="500">How Drape uses this</text>
+  <text x="450" y="440" font-size="11" fill="#78716C" text-anchor="middle">Claude reasons about color harmony when generating outfits — prioritizing complementary and analogous pairings for maximum wearability.</text>
+
+  <!-- Footer -->
+  <text x="60" y="468" font-size="11" fill="#C4B8B0">Drape — AI Outfit Planner</text>
+</svg>

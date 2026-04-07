@@ -1,0 +1,84 @@
+<svg width="900" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="900" height="320" fill="#1C1917"/>
+
+  <!-- Title -->
+  <text x="60" y="52" font-size="22" font-weight="600" fill="#FAFAF8">The AI Pipeline</text>
+  <text x="60" y="74" font-size="13" fill="#78716C">What happens in the 3 seconds after you upload a photo</text>
+  <line x1="60" y1="90" x2="840" y2="90" stroke="#2D2926" stroke-width="1"/>
+
+  <!-- Step 1 -->
+  <rect x="60" y="118" width="104" height="100" rx="8" fill="#2D2926" stroke="#3D3733" stroke-width="1"/>
+  <text x="112" y="148" font-size="22" text-anchor="middle">📷</text>
+  <text x="112" y="172" font-size="11" font-weight="600" fill="#FAFAF8" text-anchor="middle">Photo</text>
+  <text x="112" y="188" font-size="11" fill="#78716C" text-anchor="middle">Upload</text>
+  <text x="112" y="208" font-size="10" fill="#A8956E" text-anchor="middle">User selects</text>
+  <text x="112" y="220" font-size="10" fill="#A8956E" text-anchor="middle">image file</text>
+
+  <!-- Arrow -->
+  <line x1="166" y1="168" x2="186" y2="168" stroke="#A8956E" stroke-width="1.5"/>
+  <polygon points="186,163 194,168 186,173" fill="#A8956E"/>
+
+  <!-- Step 2 -->
+  <rect x="196" y="118" width="104" height="100" rx="8" fill="#2D2926" stroke="#3D3733" stroke-width="1"/>
+  <text x="248" y="148" font-size="22" text-anchor="middle">☁️</text>
+  <text x="248" y="172" font-size="11" font-weight="600" fill="#FAFAF8" text-anchor="middle">Storage</text>
+  <text x="248" y="188" font-size="11" fill="#78716C" text-anchor="middle">Upload</text>
+  <text x="248" y="208" font-size="10" fill="#A8956E" text-anchor="middle">Saved to</text>
+  <text x="248" y="220" font-size="10" fill="#A8956E" text-anchor="middle">Supabase</text>
+
+  <!-- Arrow -->
+  <line x1="302" y1="168" x2="322" y2="168" stroke="#A8956E" stroke-width="1.5"/>
+  <polygon points="322,163 330,168 322,173" fill="#A8956E"/>
+
+  <!-- Step 3 -->
+  <rect x="332" y="118" width="104" height="100" rx="8" fill="#2D2926" stroke="#3D3733" stroke-width="1"/>
+  <text x="384" y="148" font-size="22" text-anchor="middle">🔗</text>
+  <text x="384" y="172" font-size="11" font-weight="600" fill="#FAFAF8" text-anchor="middle">Public</text>
+  <text x="384" y="188" font-size="11" fill="#78716C" text-anchor="middle">URL</text>
+  <text x="384" y="208" font-size="10" fill="#A8956E" text-anchor="middle">CDN URL</text>
+  <text x="384" y="220" font-size="10" fill="#A8956E" text-anchor="middle">generated</text>
+
+  <!-- Arrow -->
+  <line x1="438" y1="168" x2="458" y2="168" stroke="#A8956E" stroke-width="1.5"/>
+  <polygon points="458,163 466,168 458,173" fill="#A8956E"/>
+
+  <!-- Step 4 — Highlighted -->
+  <rect x="468" y="108" width="114" height="120" rx="8" fill="#A8956E"/>
+  <text x="525" y="142" font-size="22" text-anchor="middle">🤖</text>
+  <text x="525" y="168" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">Claude</text>
+  <text x="525" y="184" font-size="11" fill="#F5EFE6" text-anchor="middle">Vision</text>
+  <text x="525" y="204" font-size="10" fill="#F5EFE6" text-anchor="middle">Sees + describes</text>
+  <text x="525" y="216" font-size="10" fill="#F5EFE6" text-anchor="middle">the item</text>
+
+  <!-- Arrow -->
+  <line x1="584" y1="168" x2="604" y2="168" stroke="#A8956E" stroke-width="1.5"/>
+  <polygon points="604,163 612,168 604,173" fill="#A8956E"/>
+
+  <!-- Step 5 -->
+  <rect x="614" y="118" width="104" height="100" rx="8" fill="#2D2926" stroke="#3D3733" stroke-width="1"/>
+  <text x="666" y="148" font-size="22" text-anchor="middle">📋</text>
+  <text x="666" y="172" font-size="11" font-weight="600" fill="#FAFAF8" text-anchor="middle">Metadata</text>
+  <text x="666" y="188" font-size="11" fill="#78716C" text-anchor="middle">Extracted</text>
+  <text x="666" y="208" font-size="10" fill="#A8956E" text-anchor="middle">name, color,</text>
+  <text x="666" y="220" font-size="10" fill="#A8956E" text-anchor="middle">style, category</text>
+
+  <!-- Arrow -->
+  <line x1="720" y1="168" x2="740" y2="168" stroke="#A8956E" stroke-width="1.5"/>
+  <polygon points="740,163 748,168 740,173" fill="#A8956E"/>
+
+  <!-- Step 6 -->
+  <rect x="750" y="118" width="104" height="100" rx="8" fill="#2D2926" stroke="#3D3733" stroke-width="1"/>
+  <text x="802" y="148" font-size="22" text-anchor="middle">💾</text>
+  <text x="802" y="172" font-size="11" font-weight="600" fill="#FAFAF8" text-anchor="middle">Saved to</text>
+  <text x="802" y="188" font-size="11" fill="#78716C" text-anchor="middle">Database</text>
+  <text x="802" y="208" font-size="10" fill="#A8956E" text-anchor="middle">Postgres via</text>
+  <text x="802" y="220" font-size="10" fill="#A8956E" text-anchor="middle">Supabase</text>
+
+  <!-- JSON output preview -->
+  <rect x="60" y="240" width="780" height="52" rx="8" fill="#2D2926" stroke="#3D3733" stroke-width="1"/>
+  <text x="80" y="261" font-size="11" fill="#A8956E" font-family="monospace">// Claude returns structured JSON</text>
+  <text x="80" y="279" font-size="11" fill="#78716C" font-family="monospace">{"name": "Navy Blazer", "category": "outerwear", "color": "navy", "style": "smart-casual", "description": "..."}</text>
+
+  <!-- Footer -->
+  <text x="60" y="310" font-size="11" fill="#3D3733">Drape — AI Outfit Planner</text>
+</svg>

@@ -1,0 +1,94 @@
+<svg width="900" height="500" viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="900" height="500" fill="#FAFAF8"/>
+
+  <!-- Title -->
+  <text x="60" y="52" font-size="22" font-weight="600" fill="#1C1917">Information Architecture</text>
+  <text x="60" y="74" font-size="13" fill="#78716C">Every screen, state, and component — mapped</text>
+  <line x1="60" y1="90" x2="840" y2="90" stroke="#E7E5E4" stroke-width="1"/>
+
+  <!-- Root node -->
+  <rect x="366" y="110" width="168" height="44" rx="8" fill="#1C1917"/>
+  <text x="450" y="137" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">drape.app</text>
+
+  <!-- Root branches -->
+  <line x1="450" y1="154" x2="450" y2="174" stroke="#D4CFC9" stroke-width="1.5"/>
+  <line x1="160" y1="174" x2="740" y2="174" stroke="#D4CFC9" stroke-width="1.5"/>
+
+  <!-- Branch lines down -->
+  <line x1="160" y1="174" x2="160" y2="194" stroke="#D4CFC9" stroke-width="1.5"/>
+  <line x1="350" y1="174" x2="350" y2="194" stroke="#D4CFC9" stroke-width="1.5"/>
+  <line x1="550" y1="174" x2="550" y2="194" stroke="#D4CFC9" stroke-width="1.5"/>
+  <line x1="740" y1="174" x2="740" y2="194" stroke="#D4CFC9" stroke-width="1.5"/>
+
+  <!-- Level 1 nodes -->
+  <rect x="88" y="194" width="144" height="40" rx="8" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1.5"/>
+  <text x="160" y="219" font-size="12" font-weight="500" fill="#1C1917" text-anchor="middle">/ Landing</text>
+
+  <rect x="278" y="194" width="144" height="40" rx="8" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1.5"/>
+  <text x="350" y="219" font-size="12" font-weight="500" fill="#1C1917" text-anchor="middle">/login</text>
+
+  <rect x="478" y="194" width="144" height="40" rx="8" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1.5"/>
+  <text x="550" y="219" font-size="12" font-weight="500" fill="#1C1917" text-anchor="middle">/signup</text>
+
+  <rect x="668" y="194" width="144" height="40" rx="8" fill="#A8956E"/>
+  <text x="740" y="219" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle">/dashboard ✦</text>
+
+  <!-- Dashboard branch -->
+  <line x1="740" y1="234" x2="740" y2="260" stroke="#D4CFC9" stroke-width="1.5"/>
+  <line x1="580" y1="260" x2="900" y2="260" stroke="#D4CFC9" stroke-width="1.5"/>
+  <line x1="580" y1="260" x2="580" y2="280" stroke="#D4CFC9" stroke-width="1.5"/>
+  <line x1="740" y1="260" x2="740" y2="280" stroke="#D4CFC9" stroke-width="1.5"/>
+  <line x1="870" y1="260" x2="870" y2="280" stroke="#D4CFC9" stroke-width="1.5"/>
+
+  <!-- Dashboard tabs -->
+  <rect x="508" y="280" width="144" height="40" rx="8" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1.5"/>
+  <text x="580" y="305" font-size="12" font-weight="500" fill="#1C1917" text-anchor="middle">Wardrobe Tab</text>
+
+  <rect x="668" y="280" width="144" height="40" rx="8" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1.5"/>
+  <text x="740" y="305" font-size="12" font-weight="500" fill="#1C1917" text-anchor="middle">Outfits Tab</text>
+
+  <rect x="798" y="280" width="144" height="40" rx="8" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1.5"/>
+  <text x="870" y="305" font-size="12" font-weight="500" fill="#1C1917" text-anchor="middle">Header Nav</text>
+
+  <!-- Wardrobe children -->
+  <line x1="580" y1="320" x2="580" y2="345" stroke="#D4CFC9" stroke-width="1.5"/>
+  <line x1="460" y1="345" x2="700" y2="345" stroke="#D4CFC9" stroke-width="1.5"/>
+  <line x1="460" y1="345" x2="460" y2="365" stroke="#D4CFC9" stroke-width="1.5"/>
+  <line x1="580" y1="345" x2="580" y2="365" stroke="#D4CFC9" stroke-width="1.5"/>
+  <line x1="700" y1="345" x2="700" y2="365" stroke="#D4CFC9" stroke-width="1.5"/>
+
+  <rect x="394" y="365" width="132" height="36" rx="6" fill="#F5F0EB"/>
+  <text x="460" y="388" font-size="11" fill="#78716C" text-anchor="middle">UploadItem</text>
+
+  <rect x="514" y="365" width="132" height="36" rx="6" fill="#F5F0EB"/>
+  <text x="580" y="388" font-size="11" fill="#78716C" text-anchor="middle">WardrobeGrid</text>
+
+  <rect x="634" y="365" width="132" height="36" rx="6" fill="#F5F0EB"/>
+  <text x="700" y="388" font-size="11" fill="#78716C" text-anchor="middle">ItemCard</text>
+
+  <!-- Outfits children -->
+  <line x1="740" y1="320" x2="740" y2="345" stroke="#D4CFC9" stroke-width="1.5"/>
+
+  <!-- API routes box -->
+  <rect x="60" y="260" width="380" height="160" rx="10" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1.5"/>
+  <text x="80" y="288" font-size="11" font-weight="600" fill="#A8956E" letter-spacing="1">API ROUTES</text>
+  <rect x="80" y="298" width="340" height="28" rx="5" fill="#F5F0EB"/>
+  <text x="100" y="317" font-size="11" fill="#78716C">POST /api/analyze-item</text>
+  <rect x="80" y="334" width="340" height="28" rx="5" fill="#F5F0EB"/>
+  <text x="100" y="353" font-size="11" fill="#78716C">POST /api/generate-outfit</text>
+  <rect x="80" y="370" width="340" height="28" rx="5" fill="#F5F0EB"/>
+  <text x="100" y="389" font-size="11" fill="#78716C">GET /api/auth/callback</text>
+
+  <!-- Component leaf nodes -->
+  <rect x="394" y="420" width="132" height="28" rx="5" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1"/>
+  <text x="460" y="439" font-size="10" fill="#78716C" text-anchor="middle">Supabase Storage</text>
+
+  <rect x="514" y="420" width="132" height="28" rx="5" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1"/>
+  <text x="580" y="439" font-size="10" fill="#78716C" text-anchor="middle">RLS Policies</text>
+
+  <rect x="634" y="420" width="132" height="28" rx="5" fill="#FFFFFF" stroke="#E7E5E4" stroke-width="1"/>
+  <text x="700" y="439" font-size="10" fill="#78716C" text-anchor="middle">Delete Action</text>
+
+  <!-- Footer -->
+  <text x="60" y="488" font-size="11" fill="#C4B8B0">Drape — AI Outfit Planner</text>
+</svg>
