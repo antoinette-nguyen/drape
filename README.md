@@ -1,36 +1,181 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Drape
 
-## Getting Started
+**Your AI stylist. Upload your wardrobe — get outfits you'd never think to wear.**
 
-First, run the development server:
+Drape solves decision paralysis by turning a photo library of your clothes into personalized outfit combinations, powered by Claude Vision. No more staring at a full closet feeling like you have nothing to wear.
+
+[Live Demo](#) · [Report a Bug](https://github.com/antoinette-nguyen/drape/issues)
+
+---
+
+## Screens
+
+### Landing
+```
+┌─────────────────────────────────────────┐
+│                                         │
+│                                         │
+│              Drape                      │
+│                                         │
+│   Upload your wardrobe. Let AI build    │
+│   outfits you've never thought to wear. │
+│                                         │
+│         [ Log in ]  [ Get started ]     │
+│                                         │
+│                                         │
+└─────────────────────────────────────────┘
+```
+
+### Wardrobe
+```
+┌─────────────────────────────────────────────────────────┐
+│  Drape                          hello@you.com  Sign out  │
+├─────────────────────────────────────────────────────────┤
+│  Wardrobe (12)    Outfits                               │
+├─────────────────────────────────────────────────────────┤
+│                                                         │
+│  Your wardrobe                          [ + Add item ]  │
+│  Upload photos of your clothing items                   │
+│                                                         │
+│  ┌────────┐ ┌────────┐ ┌────────┐ ┌────────┐           │
+│  │  img   │ │  img   │ │  img   │ │  img   │           │
+│  │        │ │        │ │        │ │        │           │
+│  ├────────┤ ├────────┤ ├────────┤ ├────────┤           │
+│  │White   │ │Navy    │ │Black   │ │Beige   │           │
+│  │tee     │ │blazer  │ │jeans   │ │coat    │           │
+│  │tops •  │ │outer • │ │bottoms │ │outer • │           │
+│  │white   │ │navy    │ │• black │ │beige   │           │
+│  └────────┘ └────────┘ └────────┘ └────────┘           │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
+```
+
+### Outfit Generator
+```
+┌─────────────────────────────────────────────────────────┐
+│  Drape                          hello@you.com  Sign out  │
+├─────────────────────────────────────────────────────────┤
+│  Wardrobe (12)    Outfits                               │
+├─────────────────────────────────────────────────────────┤
+│                                                         │
+│  Outfit suggestions             [ Generate outfits ]    │
+│  AI-generated combinations from your wardrobe           │
+│                                                         │
+│  ┌───────────────────────────────────────────────────┐  │
+│  │  LOOK 1                                           │  │
+│  │  ┌──────┐  ┌──────┐  ┌──────┐                   │  │
+│  │  │ img  │  │ img  │  │ img  │                   │  │
+│  │  └──────┘  └──────┘  └──────┘                   │  │
+│  │  White tee  Navy blazer  Black jeans             │  │
+│  │                                                   │  │
+│  │  The blazer elevates the basic tee into smart-   │  │
+│  │  casual territory. Works for a client meeting    │  │
+│  │  or a dinner where you want to look intentional. │  │
+│  └───────────────────────────────────────────────────┘  │
+│                                                         │
+│  ┌───────────────────────────────────────────────────┐  │
+│  │  WHAT TO SHOP NEXT                                │  │
+│  │  You own strong tops and outerwear but lack       │  │
+│  │  versatile trousers. A pair of straight-leg tan   │  │
+│  │  chinos would unlock 6 new outfit combinations.   │  │
+│  └───────────────────────────────────────────────────┘  │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
+```
+
+---
+
+## Features
+
+- **Wardrobe upload** — photograph a clothing item, Claude Vision identifies the name, category, color, and style automatically
+- **Smart grid** — all your items in one place, organized and deletable
+- **Outfit generator** — Claude assembles combinations you haven't tried, with a plain-English explanation of why each look works
+- **Shopping recommendations** — gap analysis on your wardrobe; tells you exactly what one purchase would unlock the most outfits
+
+---
+
+## Tech Stack
+
+| Layer | Choice | Why |
+|---|---|---|
+| Framework | Next.js 16 (App Router) | Fullstack, deploys to Vercel in one click |
+| Database + Auth + Storage | Supabase | One platform for everything; RLS ensures users only see their own data |
+| AI | Claude API (claude-opus-4-6) | Vision + language in one model; best at nuanced style reasoning |
+| UI | Tailwind CSS + shadcn/ui | Polished components without design overhead |
+
+---
+
+## Running locally
+
+**Prerequisites:** Node.js 18+, a Supabase project, an Anthropic API key
+
+```bash
+git clone https://github.com/antoinette-nguyen/drape.git
+cd drape
+npm install
+```
+
+Copy the environment template and fill in your keys:
+
+```bash
+cp .env.local.example .env.local
+```
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+ANTHROPIC_API_KEY=your_anthropic_api_key
+```
+
+Run the database schema in your Supabase SQL editor:
+
+```bash
+# Copy contents of supabase-schema.sql into Supabase → SQL Editor → Run
+```
+
+Start the dev server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project structure
 
-## Learn More
+```
+src/
+├── app/
+│   ├── page.tsx                  # Landing page
+│   ├── login/                    # Auth
+│   ├── signup/
+│   ├── dashboard/                # Main app (wardrobe + outfits)
+│   └── api/
+│       ├── analyze-item/         # Claude Vision → item metadata
+│       ├── generate-outfit/      # Claude → outfit combos + shopping recs
+│       └── auth/callback/        # Supabase email confirmation handler
+├── components/
+│   ├── wardrobe/
+│   │   ├── UploadItem.tsx        # Upload → storage → analyze → save
+│   │   └── WardrobeGrid.tsx      # Photo grid with delete
+│   └── outfits/
+│       └── OutfitGenerator.tsx   # Generate + display outfits
+└── lib/
+    ├── supabase.ts               # Browser client
+    └── supabase-server.ts        # Server client (for SSR)
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deploying to Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Push to GitHub
+2. Import the repo at [vercel.com/new](https://vercel.com/new)
+3. Add environment variables in Vercel project settings
+4. Deploy
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built by [Antoinette Nguyen](https://github.com/antoinette-nguyen)
